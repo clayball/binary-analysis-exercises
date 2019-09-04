@@ -56,3 +56,7 @@ Disassemble all the code in the object file
 
 ```objdump -M intel -d chapter01.o```
 
+View relocation information
+
+```readelf --relocs chapter01.o```
+
