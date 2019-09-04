@@ -60,3 +60,25 @@ View relocation information
 
 ```readelf --relocs chapter01.o```
 
+### Summary
+
+Compilation phases: 
+- preprocessing
+- compilation
+- assembly
+- linking
+
+Commands: 
+- gcc (-E -P, -S -masm=intel, -c)
+- readelf (-p, --relocs)
+- strip (--strip-all)
+- objdump (-sj, -M intel -d)
+
+Terms: 
+- lazy binding
+
+
+## Chapter 02, The ELF Format
+
+Executable and Linkable Format, ELF
+
