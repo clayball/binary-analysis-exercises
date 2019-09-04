@@ -18,5 +18,30 @@ C preprocessor output
 
 ```gcc -E -P chapter01.c```
 
+Compile an assembly file
+
+```gcc -S -masm=intel chapter01.c```
+
+Compile an object file
+
+```gcc -c chapter01.c```
+
+Compile an executable binary
+
+```gcc chapter01.c -o chapter01```
+
+Using CMakeFiles
+
+```make chapter01```
+
+### Symbols and Stripped Binaries
+
+Viewing Symbolic information
+
+```readelf -p .interp chapter01```
+
+Stripping an executable
+
+```strip --strip-all chapter01```
 
 
