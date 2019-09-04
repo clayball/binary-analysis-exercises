@@ -44,4 +44,15 @@ Stripping an executable
 
 ```strip --strip-all chapter01```
 
+### Disassembling A Binary
+
+Disassembling an object file
+
+Show contents of .rodata section
+
+```objdump -sj .rodata chapter01.o```
+
+Disassemble all the code in the object file
+
+```objdump -M intel -d chapter01.o```
 
