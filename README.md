@@ -82,3 +82,13 @@ Terms:
 
 Executable and Linkable Format, ELF
 
+ELF specification: http://refspecs.linuxbase.org/elf/elf.pdf
+
+General format/contents of an ELF binary
+- executable header
+- section headers (optional)
+- sections (optional)
+- program headers (optional)
+
+
+
